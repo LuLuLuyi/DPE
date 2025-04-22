@@ -13,6 +13,7 @@ This is the official repository for 📜 [Effective Length Extrapolation via Dim
 
 <img src="" width="1000" alt="" />
 
+
 ## TABLE OF CONTENTS
 1. [Introdution](#Introdution)
 2. [Quick Start](#quick-start)
