@@ -9,10 +9,9 @@ DPE: Effective Length Extrapolation via Dimension-Wise Positional Embeddings Man
   <a href=" "><b>[🤗 HF HUB]</b></a> 
 </p> -->
 
-This is the official repository for 📜 [Effective Length Extrapolation via Dimension-Wise Positional Embeddings Manipulation]().
+This is the official repository for 📜 [Effective Length Extrapolation via Dimension-Wise Positional Embeddings Manipulation](https://arxiv.org/abs/2504.18857).
 
-<img src="" width="1000" alt="" />
-
+<img src="./fig/method_fig.pdf" width="1000" alt="" />
 
 ## TABLE OF CONTENTS
 1. [Introdution](#Introdution)
@@ -24,6 +23,12 @@ This is the official repository for 📜 [Effective Length Extrapolation via Dim
 ## 📖Introduction
 
 ### Dimension-Wise Positional Embeddings Manipulation
+We introduce **Dimension-Wise Positional Embeddings Manipulation (DPE)**, a **training-free** and **plug-and-play** framework for context extension. DPE identifies and selectively manipulates the **most influential dimensions** of the rotary positional embeddings by analyzing their **attention contribution** to attention scores. This strategy optimizes the model’s dimensional adaptation with minimal modifications to the pretrained model, enabling each dimension to extrapolate in an optimal manner.
+
+DPE proceeds in three steps:
+a. **Detecting the Effective Relative Distance**:  We partitioning the model’s hidden dimensions into several groups (in practice, we divide them evenly into eight groups). For each group, we detect the most effective relative distances via a detecting task using NIAH.
+b. **Identifying the Key Dimensions**: The key dimensions are identified using their attention contribution. 
+c. **Scaling the Position Indices**: For each selected dimension, we apply a customized scaling factor derived from its most effective relative distance.
 
 <div align=center><img src="./fig/method_fig.pdf" width="90%" /></div>
 
@@ -90,43 +95,75 @@ print("[model output:]", output)
 
 ```
 
-## 🪄 Apply DPE to New Models
+<!-- ## 🪄 Apply DPE to New Models
 ### 1. Detecting the effective relative distance for different dimensions
 
 We use NIAH (4-needle) to detect our pretrained model
 
+After this step, we can get scale_factors for different dimension groups. -->
+
+## 🪄 Apply DPE to New Models
+### 1. Detecting the effective relative distance for different dimensions
+
+We use NIAH (4-needle) to detect the optimal scale factors for our pretrained model.
+
+#### step 1: Generate data of the appropriate length
+Generate the test data by running the data generator script. You can modify the `MAX_CONTEXT_LENGTH` parameter to adjust the data length.
+
+```bash
+bash ./niah/scripts/run_data_generator.sh
+```
+
+#### step 2: Run the detection process
+
+Execute the NIAH detection script with your specific parameters:
+- Set `TEST_MAX_LENGTH` to your desired test sequence length
+- Set `PRETRAIN_LENGTH` to your model's pretraining context length
+
+```bash
+bash ./effective_length_detection/run_niah_detect.sh
+```
+
+After this step, you'll obtain results for different detection groups. By sorting these results, you can identify the optimal dimensions for your model and their corresponding scale factors.
 ### 2. Identify key dimensions for context extension
-#### step 1: sample query and key's hidden states for your model
+#### step 1: Sample query and key's hidden states for your model
 ```bash
 python ./dimension_selection/sample_qk.py
 ```
-#### step 2: calulate 2-norm attention contribution for sampled hidden states
+#### step 2: Calulate 2-norm attention contribution for sampled hidden states
 ```bash
 python ./dimension_selection/qk_2_norm_select_dim.py
 ```
 After this step, we can get ./dimension_selection/result/llama3-8b-Instruct/qk_2_norm_selected_dim.pt
-#### step 3: Use qk_2_norm_selected_dim.pt for top-k dimension selection
+<!-- #### step 3: Use qk_2_norm_selected_dim.pt for top-k dimension selection
 ```
 selected_dim = torch.load(path/to/qk_2_norm_selected_dim.pt)
 selected_dim = torch.topk(selected_dim, dim=-1, k=topk)[1]
 ```
-You can also directly pass the "path/to/qk_2_norm_selected_dim.pt" to dpe_for_llama.py and set select_topk_dim=True.
+You can also directly pass the "path/to/qk_2_norm_selected_dim.pt" to dpe_for_llama.py and set select_topk_dim=True. -->
 
-### 3. Add Your Results to DPE config
+### 3. Add the Results to DPE config
+```yaml
+"llama3-8b-instruct":
+  local_window_size: 1024
+  scale_factors: [4, 4, 2, 16, 32, 32, 16, 128]
+  dimension_groups_range: [0, 8, 16, 24, 32, 40, 48, 56, 64]
+  selected_dim_path : "dim_select_result/llama3-8b-Instruct/qk_2_norm_selected_dim.pt"
+```
 
-# wanxu todo:
 ## 🔬Experiments 
-This section contains the data and code for validating STRING in our paper.
+This section contains the data and code for validating DPE in our paper.
 
 #### Needle In A HayStack (4-needle)
-We use NIAH (4-needle) to test our pretrained model, Tinyllama-1.3B. We also evaluate base models (without SFT) from the open-source community using STRING, RoPE, and extrapolation baselines on these tasks. The haystack consists of Paul Graham's essays, and the needles are 6-digit numbers. We report the accuracy of successfully retrieving at least two of the needles, following the Llama 3 report.
-```python
-cd niah
-CUDA_VISIBLE_DEVICES=0 python test_niah_llama.py --test_max_length 131072 --model_path /path/to/llama --shifted_ratio 0.33 (default) --local_value 128 (default)
+We use NIAH (4-needle) to detect effective relative distance and test the latest models from the open-source community using DPE and RoPE. The haystack consists of Paul Graham's essays, and the needles are 6-digit numbers.
+To run the evaluation:
+```bash
+cd niah/scripts
+bash niah.sh
 ```
 
 #### RULER
-The test and evaluation code is from the official release of [RULER](https://github.com/hsiehjackson/RULER) which contains diverse sythetic tasks to test the long-context ability of LLMs. In this repo, we remove the engineering code from their offical code base but keep all config the same as them. We test Llama3.1 by setting the `max_length` in RULER to `128K`. 
+The test and evaluation code is from the official release of [RULER](https://github.com/hsiehjackson/RULER) which contains diverse sythetic tasks to test the long-context ability of LLMs.
 ```python
 # step 1: generate the test data
 cd ruler
@@ -144,12 +181,8 @@ This will generate the processed data for the 13 tasks in RULER and save it to t
 To test the model on RULER, run the following command:
 ```python
 # step 2: test and evaluate the model
-# variable tracking
-CUDA_VISIBLE_DEVICES=0 python test_ruler_llama.py --model_path /path/to/llama3 --task vt --data_dir data-jsonl/vt/llama3.1-8b-instruct-131072.jsonl  --shifted_ratio 0.33 (default) --local_value 128 (default)
-# niah_multikey_3
-CUDA_VISIBLE_DEVICES=0 python test_ruler_llama.py --model_path /path/to/llama3 --task niah_multikey_3 --data_dir data-jsonl/niah_multikey_3/llama3.1-8b-instruct-131072.jsonl  --shifted_ratio 0.33 (default) --local_value 128 (default)
-
-# Qwen2: CUDA_VISIBLE_DEVICES=0 python test_ruler_qwen2.py --model_path /path/to/qwen2 --task vt --data_dir data-jsonl/vt/qwen2-72b-instruct-131072.jsonl --shifted_ratio 0.33 (default) --local_value 128 (default)
+cd scripts
+bash ruler_dpe.sh
 ```
 This command will generate a prediction file in the `Predictions/task_name/model_name/directory`. You can view your generation results and scores in this file and in your stdout. We release the predictions from Llama3.1-STRING 8B/70B [here](https://github.com/HKUNLP/STRING/tree/main/ruler/Predictions). You can also test string with the offical code from RULER by adding one line: `replace_with_string`.
 
@@ -157,4 +190,13 @@ This command will generate a prediction file in the `Predictions/task_name/model
 
 If you find our work helpful or relevant to your research, please kindly cite our paper:
 ```
+@misc{lu2025effectivelengthextrapolationdimensionwise,
+      title={Effective Length Extrapolation via Dimension-Wise Positional Embeddings Manipulation}, 
+      author={Yi Lu and Wanxu Zhao and Xin Zhou and Chenxin An and Chenglong Wang and Shuo Li and Yuming Yang and Jun Zhao and Tao Ji and Tao Gui and Qi Zhang and Xuanjing Huang},
+      year={2025},
+      eprint={2504.18857},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.18857}, 
+}
 ```
