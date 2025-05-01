@@ -30,7 +30,7 @@ a. **Detecting the Effective Relative Distance**:  We partitioning the model’s
 b. **Identifying the Key Dimensions**: The key dimensions are identified using their attention contribution. 
 c. **Scaling the Position Indices**: For each selected dimension, we apply a customized scaling factor derived from its most effective relative distance.
 
-<div align=center><img src="./fig/method_fig.pdf" width="90%" /></div>
+<div align=center><img src="fig/method_fig.pdf" width="90%" /></div>
 
 
 
