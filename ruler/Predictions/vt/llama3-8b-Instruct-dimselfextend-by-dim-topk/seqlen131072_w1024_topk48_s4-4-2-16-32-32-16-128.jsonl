@@ -1,0 +1,101 @@
+{"ctx_len": 130812, "pred": "FHJZJ, KYXHU, WSKSI, QJHCQ<|eot_id|>", "needle": ["FHJZJ", "OQGGL", "KYXHU", "WSKSI", "QJHCQ"], "score": 0.8}
+{"ctx_len": 130809, "pred": "OUXKI<|eot_id|>", "needle": ["OUXKI", "WJWIK", "GLSHN", "AQONI", "BERSJ"], "score": 0.2}
+{"ctx_len": 130808, "pred": "GDSZS<|eot_id|>", "needle": ["KVOEW", "TKKVN", "PAYRQ", "IMWGS", "GDSZS"], "score": 0.2}
+{"ctx_len": 130813, "pred": "YWTBZ<|eot_id|>", "needle": ["YWTBZ", "YPSSR", "TTDQZ", "HSDWD", "LJYSC"], "score": 0.2}
+{"ctx_len": 130808, "pred": "HRGJQ<|eot_id|>", "needle": ["QALHD", "WAGMT", "KPZBL", "QMOOP", "HRGJQ"], "score": 0.2}
+{"ctx_len": 130809, "pred": "CWYEM, OHLBN, QUJNE, BMJOZ, WTPZL<|eot_id|>", "needle": ["BMJOZ", "WTPZL", "CWYEM", "OHLBN", "QUJNE"], "score": 1.0}
+{"ctx_len": 130810, "pred": "PQJIA, JUHHQ, DEPJA, UHABD<|eot_id|>", "needle": ["PQJIA", "NSPIG", "DEPJA", "JUHHQ", "UHABD"], "score": 0.8}
+{"ctx_len": 130814, "pred": "QJNTF<|eot_id|>", "needle": ["QJNTF", "HMAGG", "AAXYJ", "NQKAO", "KJUZY"], "score": 0.2}
+{"ctx_len": 130809, "pred": "GSZLA, JIDLF, PLHEA<|eot_id|>", "needle": ["GSZLA", "GQFMI", "EXIZQ", "JIDLF", "PLHEA"], "score": 0.6}
+{"ctx_len": 130810, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["IDKHL", "GPQRO", "UFFIC", "AUOQX", "VBGQY"], "score": 0.0}
+{"ctx_len": 130811, "pred": "SYVMQ, YEGKQ, FWLUM, DNYEI<|eot_id|>", "needle": ["SYVMQ", "MVKQV", "YEGKQ", "FWLUM", "DNYEI"], "score": 0.8}
+{"ctx_len": 130809, "pred": "YFPNH<|eot_id|>", "needle": ["YFPNH", "KGVNQ", "FTNNZ", "HPAHA", "PRNKA"], "score": 0.2}
+{"ctx_len": 130809, "pred": "LEKRA, GLPNS, UKVVA, UZQSX, OHTYD<|eot_id|>", "needle": ["LEKRA", "GLPNS", "UKVVA", "UZQSX", "OHTYD"], "score": 1.0}
+{"ctx_len": 130807, "pred": "OFSFW, SKLNK, XHLMS, CGTDK, VFYNA<|eot_id|>", "needle": ["OFSFW", "VFYNA", "SKLNK", "XHLMS", "CGTDK"], "score": 1.0}
+{"ctx_len": 130806, "pred": "QBXHM, LIGQL, WORVT, MBPIP<|eot_id|>", "needle": ["QBXHM", "LIGQL", "MIPCV", "WORVT", "MBPIP"], "score": 0.8}
+{"ctx_len": 130808, "pred": "EKMLK, HIEWV, GUQUP, FVGGZ, MNANP<|eot_id|>", "needle": ["EKMLK", "HIEWV", "MNANP", "GUQUP", "FVGGZ"], "score": 1.0}
+{"ctx_len": 130809, "pred": "NLYAV<|eot_id|>", "needle": ["RZELT", "VQUQL", "IGKUB", "JQICK", "NLYAV"], "score": 0.2}
+{"ctx_len": 130803, "pred": "CURXI<|eot_id|>", "needle": ["CURXI", "KCXCZ", "CUTSG", "USMFP", "RLEMO"], "score": 0.2}
+{"ctx_len": 130805, "pred": "XDJNC<|eot_id|>", "needle": ["XDJNC", "MMAPA", "LCIES", "OELYC", "USEJX"], "score": 0.2}
+{"ctx_len": 130809, "pred": "GGGBC<|eot_id|>", "needle": ["DFVQC", "PLYLH", "CUHMC", "JDABR", "GGGBC"], "score": 0.2}
+{"ctx_len": 130807, "pred": "OAKIZ<|eot_id|>", "needle": ["OAKIZ", "CADSA", "ZAEOI", "IXDMG", "RRGFM"], "score": 0.2}
+{"ctx_len": 130808, "pred": "WJYXT<|eot_id|>", "needle": ["WJYXT", "AOFZH", "LXANN", "NPIHA", "EWPJN"], "score": 0.2}
+{"ctx_len": 130805, "pred": "JSYTR<|eot_id|>", "needle": ["JSYTR", "JWBTJ", "KIMPW", "CELPO", "AHIKD"], "score": 0.2}
+{"ctx_len": 130807, "pred": "IEGPA, UNMFB, MLDKP, TCXYD, PQPMX<|eot_id|>", "needle": ["IEGPA", "PQPMX", "UNMFB", "MLDKP", "TCXYD"], "score": 1.0}
+{"ctx_len": 130805, "pred": "LIASL<|eot_id|>", "needle": ["NVTOY", "DMSOC", "UIBLV", "OAZJT", "LIASL"], "score": 0.2}
+{"ctx_len": 130803, "pred": "HBOEA<|eot_id|>", "needle": ["HBOEA", "GREUE", "UTRBT", "KDUKK", "ANRRQ"], "score": 0.2}
+{"ctx_len": 130807, "pred": "YTFHH, FLKMV, SGNRD, XLFDL, and QGNPT.<|eot_id|>", "needle": ["YTFHH", "QGNPT", "SGNRD", "FLKMV", "XLFDL"], "score": 1.0}
+{"ctx_len": 130812, "pred": "RVU, QMMPA, DVJSH, MNJZI, and FAI.<|eot_id|>", "needle": ["RBOQF", "QMMPA", "QEPIC", "DVJSH", "MNJZI"], "score": 0.6}
+{"ctx_len": 130807, "pred": "NMSAD<|eot_id|>", "needle": ["NMSAD", "MKQAC", "TLXDG", "XHZDP", "BMRYO"], "score": 0.2}
+{"ctx_len": 130809, "pred": "ITUJK<|eot_id|>", "needle": ["ITUJK", "RLHVF", "SBNTH", "OYEAZ", "NMXRF"], "score": 0.2}
+{"ctx_len": 130810, "pred": "QHWTU<|eot_id|>", "needle": ["CIOBI", "HDVAU", "EYXMQ", "MVNUY", "QHWTU"], "score": 0.2}
+{"ctx_len": 130807, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["FDIFM", "RWJYJ", "SEXRR", "GNZUF", "AOCOX"], "score": 0.0}
+{"ctx_len": 130805, "pred": "ORHZT, RNAKE, SCXHL, FYPMG<|eot_id|>", "needle": ["ORHZT", "RNAKE", "SCXHL", "PWSIK", "FYPMG"], "score": 0.8}
+{"ctx_len": 130810, "pred": "KSOAF, RVU, ZQO, SEJ, and FAI.<|eot_id|>", "needle": ["KSOAF", "RZKHM", "WVQDP", "EDETG", "OJZRH"], "score": 0.2}
+{"ctx_len": 130807, "pred": "QBWTU<|eot_id|>", "needle": ["KKMAW", "AWKJI", "LFCIM", "FUBPU", "QBWTU"], "score": 0.2}
+{"ctx_len": 130811, "pred": "HURQD, IARZD, JZSVB, TRUFR<|eot_id|>", "needle": ["HURQD", "IARZD", "HDVPS", "JZSVB", "TRUFR"], "score": 0.8}
+{"ctx_len": 130809, "pred": "VMOYS<|eot_id|>", "needle": ["VMOYS", "PJAFT", "BAKYQ", "ZUARP", "AJYWL"], "score": 0.2}
+{"ctx_len": 130809, "pred": "UNOGJ, HRJSI, BIBWB, KZIJC, RVU<|eot_id|>", "needle": ["UNOGJ", "IROEP", "HRJSI", "KZIJC", "BIBWB"], "score": 0.8}
+{"ctx_len": 130805, "pred": "LLMNV, IDVEL, YLXNQ, XRZWC, and EGLCS.<|eot_id|>", "needle": ["EGLCS", "XRZWC", "LLMNV", "IDVEL", "YLXNQ"], "score": 1.0}
+{"ctx_len": 130807, "pred": "KIZEC<|eot_id|>", "needle": ["KIZEC", "JAGLA", "OFWKH", "LXPBM", "GHLXD"], "score": 0.2}
+{"ctx_len": 130808, "pred": "VKOII<|eot_id|>", "needle": ["VKOII", "IIMJO", "SATEX", "AKZOB", "HXNUL"], "score": 0.2}
+{"ctx_len": 130809, "pred": "ZDLWM, KLORI, MNTZS, GZYAE, DNXLF<|eot_id|>", "needle": ["ZDLWM", "KLORI", "MNTZS", "DNXLF", "GZYAE"], "score": 1.0}
+{"ctx_len": 130806, "pred": "QQUPA<|eot_id|>", "needle": ["QQUPA", "CWIAQ", "KQMET", "ARPDE", "FEPVQ"], "score": 0.2}
+{"ctx_len": 130809, "pred": "EQMCB<|eot_id|>", "needle": ["EQMCB", "MJXLD", "MKBHQ", "OCGOP", "GJYVY"], "score": 0.2}
+{"ctx_len": 130810, "pred": "NMXGV<|eot_id|>", "needle": ["NMXGV", "ABXUA", "BMYWQ", "IXPVV", "YLCYB"], "score": 0.2}
+{"ctx_len": 130807, "pred": "TEFXT<|eot_id|>", "needle": ["TEFXT", "KYDCM", "ELQYY", "TOFHY", "HONLR"], "score": 0.2}
+{"ctx_len": 130810, "pred": "JUDII, EWDAG, YQHUG, HXHHU<|eot_id|>", "needle": ["JUDII", "PWDYT", "EWDAG", "YQHUG", "HXHHU"], "score": 0.8}
+{"ctx_len": 130809, "pred": "WEBOZ<|eot_id|>", "needle": ["WEBOZ", "AQHZR", "JUZEQ", "DHBSC", "IIKRZ"], "score": 0.2}
+{"ctx_len": 130807, "pred": "HBSDL, GJCTM, OBJHD, QVIFR, KAOWT<|eot_id|>", "needle": ["HBSDL", "OBJHD", "GJCTM", "QVIFR", "KAOWT"], "score": 1.0}
+{"ctx_len": 130807, "pred": "KDONV<|eot_id|>", "needle": ["KDONV", "GDBTE", "XFXGH", "IPQEG", "ZRWXC"], "score": 0.2}
+{"ctx_len": 130809, "pred": "ABGKC<|eot_id|>", "needle": ["ABGKC", "ZQABD", "LMMXA", "TGGTO", "VOSSS"], "score": 0.2}
+{"ctx_len": 130808, "pred": "HIGYP, ODIKZ, IRCAT, ZLTXA<|eot_id|>", "needle": ["HIGYP", "TUHUT", "ODIKZ", "IRCAT", "ZLTXA"], "score": 0.8}
+{"ctx_len": 130811, "pred": "KVPEP, EFSNY, GWRGI, RQSCJ, OZLZP<|eot_id|>", "needle": ["KVPEP", "EFSNY", "GWRGI", "RQSCJ", "OZLZP"], "score": 1.0}
+{"ctx_len": 130811, "pred": "YRSPS<|eot_id|>", "needle": ["YRSPS", "RRGCT", "TBFGU", "TSLXZ", "XGWDA"], "score": 0.2}
+{"ctx_len": 130809, "pred": "BJXUJ, HYFIB, JLONV, JWFTG, FHTFY<|eot_id|>", "needle": ["BJXUJ", "HYFIB", "JLONV", "JWFTG", "FHTFY"], "score": 1.0}
+{"ctx_len": 130807, "pred": "DNHHQ<|eot_id|>", "needle": ["DNHHQ", "AOUKI", "MPVVW", "HHAEZ", "SDNVE"], "score": 0.2}
+{"ctx_len": 130807, "pred": "FKLGH, PWWLO, ULGOO, YAKYG, EJSVO<|eot_id|>", "needle": ["FKLGH", "PWWLO", "ULGOO", "YAKYG", "EJSVO"], "score": 1.0}
+{"ctx_len": 130808, "pred": "ZJSFL<|eot_id|>", "needle": ["ZJSFL", "FSDCB", "GZSLJ", "HRKTI", "UPCYA"], "score": 0.2}
+{"ctx_len": 130809, "pred": "ALJWR<|eot_id|>", "needle": ["ALJWR", "LSPMF", "OIZUU", "PEVYX", "VXLDJ"], "score": 0.2}
+{"ctx_len": 130812, "pred": "FVTKE<|eot_id|>", "needle": ["FVTKE", "YRWMY", "PEVVC", "ZVYMO", "KIWFU"], "score": 0.2}
+{"ctx_len": 130809, "pred": "IOZAI, XGQDS, HBFIE, CCNWY, ITRJV<|eot_id|>", "needle": ["IOZAI", "XGQDS", "CCNWY", "HBFIE", "ITRJV"], "score": 1.0}
+{"ctx_len": 130807, "pred": "TSJMP<|eot_id|>", "needle": ["TSJMP", "FJCSP", "NMVFD", "RHPHL", "QLNBN"], "score": 0.2}
+{"ctx_len": 130809, "pred": "CZXNU<|eot_id|>", "needle": ["CZXNU", "WZGRX", "PRSPV", "BJODR", "BRSFH"], "score": 0.2}
+{"ctx_len": 130809, "pred": "IIRMA<|eot_id|>", "needle": ["IIRMA", "YZCOF", "BSOES", "KFBYO", "BFXEK"], "score": 0.2}
+{"ctx_len": 130805, "pred": "HRCES<|eot_id|>", "needle": ["HRCES", "COBWK", "AREAA", "YTOFK", "WAQIE"], "score": 0.2}
+{"ctx_len": 130810, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["LMOSO", "DTODZ", "ZKFTU", "LEQVT", "ZQKSI"], "score": 0.0}
+{"ctx_len": 130807, "pred": "NWHGC<|eot_id|>", "needle": ["BIKPM", "YZRNU", "NWHGC", "AXODR", "CMBIX"], "score": 0.2}
+{"ctx_len": 130807, "pred": "HUYEY<|eot_id|>", "needle": ["PXOGL", "GGBVN", "QNKTB", "GNOPR", "HUYEY"], "score": 0.2}
+{"ctx_len": 130809, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["LRKFA", "HBVYQ", "JDLNA", "YINZA", "XMRSB"], "score": 0.0}
+{"ctx_len": 130807, "pred": "NRGDG<|eot_id|>", "needle": ["NRGDG", "FNTHL", "DCIGW", "PIILV", "PAEMV"], "score": 0.2}
+{"ctx_len": 130810, "pred": "YLWDD, RIDIB, ACHZC<|eot_id|>", "needle": ["QPJYA", "YLWDD", "ETLZM", "RIDIB", "ACHZC"], "score": 0.6}
+{"ctx_len": 130805, "pred": "BRENT<|eot_id|>", "needle": ["BRENT", "GQZAI", "NIXMY", "EKHIP", "AUPFN"], "score": 0.2}
+{"ctx_len": 130805, "pred": "VAGFE<|eot_id|>", "needle": ["VAGFE", "TZHUP", "LYBXM", "KBSLT", "DSQDB"], "score": 0.2}
+{"ctx_len": 130809, "pred": "RVU, ZQO, SEJ, QPE, and WVODP.<|eot_id|>", "needle": ["WVODP", "TSJIP", "JNQHE", "GGSOE", "KHAHM"], "score": 0.2}
+{"ctx_len": 130807, "pred": "JCXBQ, EQRHN, HFJFA<|eot_id|>", "needle": ["JCXBQ", "ADITN", "LGYTF", "HFJFA", "EQRHN"], "score": 0.6}
+{"ctx_len": 130809, "pred": "SILYX<|eot_id|>", "needle": ["SILYX", "FJNXW", "EQCEK", "TJJGW", "MRCWR"], "score": 0.2}
+{"ctx_len": 130811, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["XPEEY", "GEYGB", "EJQIW", "BQSZH", "URAWP"], "score": 0.0}
+{"ctx_len": 130809, "pred": "QPE, SEJ, ZVUHH, AEUIS, and NOHTY.<|eot_id|>", "needle": ["AYZXO", "AEUIS", "ZVUHH", "RWKDN", "NOHTY"], "score": 0.6}
+{"ctx_len": 130807, "pred": "EVORV<|eot_id|>", "needle": ["EVORV", "XJAOU", "BUZVG", "SFKZZ", "IOVGX"], "score": 0.2}
+{"ctx_len": 130807, "pred": "FSRCI, ZTDYZ, PHBGJ, YDCOE<|eot_id|>", "needle": ["FSRCI", "ZTDYZ", "PREYJ", "PHBGJ", "YDCOE"], "score": 0.8}
+{"ctx_len": 130809, "pred": "LGTFD, URHEF, CQXDK, BAVPK, XRPLC<|eot_id|>", "needle": ["LGTFD", "URHEF", "CQXDK", "BAVPK", "XRPLC"], "score": 1.0}
+{"ctx_len": 130809, "pred": "LNVZI, PHZNY, GRMFE, EWZEO, INXLA<|eot_id|>", "needle": ["LNVZI", "PHZNY", "GRMFE", "EWZEO", "INXLA"], "score": 1.0}
+{"ctx_len": 130810, "pred": "WQGLX<|eot_id|>", "needle": ["FWDSS", "FRFZK", "GEODG", "EKUZJ", "WQGLX"], "score": 0.2}
+{"ctx_len": 130807, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["DKBEQ", "IOHWK", "WBPFG", "KBDGD", "CCWXF"], "score": 0.0}
+{"ctx_len": 130813, "pred": "IXVIZ, WUAYX, YKUBO, EYEAU, WXGYK<|eot_id|>", "needle": ["IXVIZ", "WUAYX", "YKUBO", "EYEAU", "WXGYK"], "score": 1.0}
+{"ctx_len": 130807, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["IXSXQ", "OBYTP", "TTHQB", "BGJKN", "BFINR"], "score": 0.0}
+{"ctx_len": 130811, "pred": "JTONC, YZLMQ, RYSKG, JJVTT, ZFCPZ<|eot_id|>", "needle": ["JTONC", "YZLMQ", "RYSKG", "ZFCPZ", "JJVTT"], "score": 1.0}
+{"ctx_len": 130805, "pred": "IVZPD<|eot_id|>", "needle": ["RTLJM", "PGCQE", "KBSLD", "ZJVMH", "IVZPD"], "score": 0.2}
+{"ctx_len": 130814, "pred": "RVU, GYCLV, KXGYI, OUWQN, ZHUEO<|eot_id|>", "needle": ["GYCLV", "KXGYI", "OUWQN", "DPFZP", "ZHUEO"], "score": 0.8}
+{"ctx_len": 130809, "pred": "FMFBH, EHZHL, YKDFZ<|eot_id|>", "needle": ["FMFBH", "EHZHL", "OAHLL", "YKDFZ", "XXRMI"], "score": 0.6}
+{"ctx_len": 130809, "pred": "QQSVE, NZVDJ, KTRLG, SEJ, RVU<|eot_id|>", "needle": ["SBDZU", "NDDKT", "NZVDJ", "QQSVE", "KTRLG"], "score": 0.6}
+{"ctx_len": 130805, "pred": "CFNET<|eot_id|>", "needle": ["CFNET", "CZKAX", "HBZSY", "DQTBU", "TRWWT"], "score": 0.2}
+{"ctx_len": 130807, "pred": "BCUVC<|eot_id|>", "needle": ["BCUVC", "TOQEX", "DNTUF", "UPMKB", "QTLSY"], "score": 0.2}
+{"ctx_len": 130808, "pred": "QPE, SEJ, ZQO, RVU, FAI<|eot_id|>", "needle": ["FJCXR", "TKIWM", "HFZXB", "RAJJG", "YKIVJ"], "score": 0.0}
+{"ctx_len": 130807, "pred": "QLCLY, JSSYP, WTSEN, SDXUV<|eot_id|>", "needle": ["QUPKK", "JSSYP", "QLCLY", "WTSEN", "SDXUV"], "score": 0.8}
+{"ctx_len": 130809, "pred": "QPE, SEJ, OEBVP, YJKUN, and BQUAP.<|eot_id|>", "needle": ["OEBVP", "YJKUN", "LQVIL", "BQUAP", "GPQNL"], "score": 0.6}
+{"ctx_len": 130806, "pred": "RGEWC<|eot_id|>", "needle": ["RGEWC", "ZMDRL", "DNIOG", "XXZMD", "AVRTR"], "score": 0.2}
+{"ctx_len": 130805, "pred": "BJYYF<|eot_id|>", "needle": ["BJYYF", "SDDEF", "DVKAN", "TNQPW", "LCYBU"], "score": 0.2}
+{"ctx_len": 130808, "pred": "XUMQR, RWIFP, TJJRQ, TREHK<|eot_id|>", "needle": ["XUMQR", "RWIFP", "IWZTG", "TJJRQ", "TREHK"], "score": 0.8}
+{"ctx_len": 130811, "pred": "LBIZA<|eot_id|>", "needle": ["LBIZA", "UHIJQ", "QBFBI", "QHICQ", "BXEWR"], "score": 0.2}
+avg_score:0.42999999999999994

@@ -1,0 +1,101 @@
+{"ctx_len": 130506, "pred": "Computational problem.<|eot_id|>", "needle": ["computational problems", "A computational problem", "computational problem"], "score": true}
+{"ctx_len": 131011, "pred": "Harold II was killed in the Battle of Hastings in 1066.<|eot_id|>", "needle": ["William II", "Duke William II", "Duke William II"], "score": false}
+{"ctx_len": 130540, "pred": "1332<|eot_id|>", "needle": ["1041", "in 1041", "1041"], "score": false}
+{"ctx_len": 129923, "pred": "Shaun White.<|eot_id|>", "needle": ["Shaun White", "Shaun White", "Shaun White"], "score": true}
+{"ctx_len": 130175, "pred": "The two factors that directly affect how powerful a Turing machine may or may not be are: 1. The size of the input: The size of the input can", "needle": ["time or space", "time or space", "time or space"], "score": false}
+{"ctx_len": 128241, "pred": "The economy of southern California is heavily dependent on the abundance of petroleum, as well as the tourism and entertainment industries.<|eot_id|>", "needle": ["petroleum", "petroleum", "petroleum"], "score": true}
+{"ctx_len": 130373, "pred": "The worst-case time complexity is typically written as an expression of the form O(f(n)), where f(n) is a function of the input size n.<|eot_id|>", "needle": ["T(n)", "T(n)", "T(n)"], "score": false}
+{"ctx_len": 130163, "pred": "Margaret's husband was Malcolm III of Scotland.<|eot_id|>", "needle": ["King Malcolm III of Scotland", "King Malcolm III", "King Malcolm III"], "score": false}
+{"ctx_len": 128871, "pred": "The climate in southern California is characterized by mild winters and hot, dry summers.<|eot_id|>", "needle": ["infrequent rain", "infrequent rain", "infrequent rain"], "score": false}
+{"ctx_len": 128535, "pred": "1097<|eot_id|>", "needle": ["1060s", "In the 1060s", "In the 1060s"], "score": false}
+{"ctx_len": 129745, "pred": "Computational complexity theory.<|eot_id|>", "needle": ["computational complexity theory", "computational complexity theory", "computational complexity theory"], "score": true}
+{"ctx_len": 128192, "pred": "The Californios were dissatisfied with the lack of representation in the government, the lack of economic opportunities, and the lack of social mobility.<|eot_id|>", "needle": ["inequitable taxes", "inequitable taxes", "inequitable taxes"], "score": false}
+{"ctx_len": 129663, "pred": "The housing crash had a significant impact on the region, leading to a decline in housing prices, a decrease in construction activity, and an increase in foreclosures", "needle": ["heavily impacted", "heavily impacted"], "score": false}
+{"ctx_len": 127546, "pred": "One common example of a critical complexity measure is the time complexity of an algorithm, which is often measured in terms of the number of steps or operations required to solve", "needle": ["time", "time complexity", "time complexity"], "score": true}
+{"ctx_len": 127337, "pred": "Tancred played a major role in the conquest of Antioch in 1098.<|eot_id|>", "needle": ["Jerusalem", "Jerusalem", "Jerusalem"], "score": false}
+{"ctx_len": 126231, "pred": "San Diego.<|eot_id|>", "needle": ["Orange", "Orange", "Orange"], "score": false}
+{"ctx_len": 128994, "pred": "5<|eot_id|>", "needle": ["seven", "seven", "seven"], "score": false}
+{"ctx_len": 129317, "pred": "The Bayeux Tapestry is not a needlework, but a work of embroidery.<|eot_id|>", "needle": ["embroidery", "embroidery", "embroidery"], "score": true}
+{"ctx_len": 130328, "pred": "The Normans were located in the region of Normandy, specifically in the Cotentin Peninsula, which is now part of the French region of Normandy.<|eot_id|>", "needle": ["north", "the north", "north"], "score": false}
+{"ctx_len": 129953, "pred": "The leader of the Franks when they entered the Euphrates valley was Charlemagne.<|eot_id|>", "needle": ["Oursel", "Oursel", "Oursel"], "score": false}
+{"ctx_len": 130065, "pred": "The chains were made out of silver.<|eot_id|>", "needle": ["silver", "silver", "silver"], "score": true}
+{"ctx_len": 130779, "pred": "Norman architecture typically features rounded arches, often with a pointed or ogival shape, and sometimes with a ribbed vault.<|eot_id|>", "needle": ["rounded", "rounded", "rounded"], "score": true}
+{"ctx_len": 129149, "pred": "The megaregion expands to the state of California.<|eot_id|>", "needle": ["Nevada", "Nevada", "Nevada"], "score": false}
+{"ctx_len": 130648, "pred": "The Bruins belong to the University of California, Los Angeles (UCLA).<|eot_id|>", "needle": ["UCLA", "UCLA", "UCLA"], "score": true}
+{"ctx_len": 130026, "pred": "3<|eot_id|>", "needle": ["three", "three", "three"], "score": false}
+{"ctx_len": 129111, "pred": "None.<|eot_id|>", "needle": ["Milton Latham", "Milton Latham", "Milton Latham"], "score": false}
+{"ctx_len": 126384, "pred": "O(n^2)<|eot_id|>", "needle": ["T(n) = O(n2)", "T(n) = O(n2)", "T(n) = O(n2)"], "score": false}
+{"ctx_len": 130599, "pred": "The Raouliii family is not mentioned in the given documents.<|eot_id|>", "needle": ["Norman mercenary", "an Italo-Norman named Raoul", "descended from an Italo-Norman named Raoul"], "score": false}
+{"ctx_len": 127597, "pred": "The most frequently employed type of reduction is the Cook reduction.<|eot_id|>", "needle": ["polynomial-time reduction", "polynomial-time", "polynomial-time reduction"], "score": false}
+{"ctx_len": 128868, "pred": "The answer is: The aerospace industry.<|eot_id|>", "needle": ["music", "major record companies"], "score": false}
+{"ctx_len": 130063, "pred": "The foundation for separation results within complexity classes is the concept of reduction, which is used to define the relationships between different problems and their complexity.<|eot_id|>", "needle": ["time and space hierarchy theorems", "The time and space hierarchy theorems", "time and space hierarchy theorems"], "score": false}
+{"ctx_len": 130064, "pred": "Computational complexity theory.<|eot_id|>", "needle": ["complexity classes", "complexity classes", "complexity classes"], "score": false}
+{"ctx_len": 129566, "pred": "Richard the Lionheart.<|eot_id|>", "needle": ["Isaac Komnenos", "Isaac", "Isaac Komnenos"], "score": false}
+{"ctx_len": 127677, "pred": "Computational complexity theory.<|eot_id|>", "needle": ["Computational complexity theory", "Computational complexity theory", "Computational complexity theory"], "score": true}
+{"ctx_len": 129995, "pred": "The most critical resource measured to in assessing the determination of a Turing machine's ability to solve any given set of problems is the time complexity of the algorithm.<|eot_id|>", "needle": ["time", "time", "time"], "score": true}
+{"ctx_len": 128797, "pred": "The San Andreas Fault.<|eot_id|>", "needle": ["San Andreas", "the San Andreas Fault", "San Andreas Fault"], "score": true}
+{"ctx_len": 129073, "pred": "The theorem implicated by Manuel Blum's axioms is the speed-up theorem.<|eot_id|>", "needle": ["speed-up theorem", "speed-up theorem", "speed-up theorem"], "score": true}
+{"ctx_len": 127654, "pred": "The unit of measurement for circuit complexity is typically the number of gates or logic operations required to solve a problem.<|eot_id|>", "needle": ["number of gates in a circuit", "number of gates in a circuit", "number of gates"], "score": true}
+{"ctx_len": 128176, "pred": "The integer factorization problem essentially seeks to determine if the value of n is less than what variable?<|eot_id|>", "needle": ["k", "k", "k"], "score": true}
+{"ctx_len": 130433, "pred": "The general term used to describe the output to any given input in a problem instance is the \"solution\" or \"answer\".<|eot_id|>", "needle": ["solution", "the solution", "solution"], "score": true}
+{"ctx_len": 128551, "pred": "California<|eot_id|>", "needle": ["California", "California", "California"], "score": true}
+{"ctx_len": 128189, "pred": "The problem of factoring a large composite number into its prime factors is an example of a problem that rests within the NP complexity class.<|eot_id|>", "needle": ["Boolean satisfiability problem", "Boolean satisfiability problem"], "score": false}
+{"ctx_len": 128746, "pred": "The answer is: Hollywood.<|eot_id|>", "needle": ["Hollywood", "Hollywood", "Hollywood"], "score": true}
+{"ctx_len": 129404, "pred": "Ralph Earl.<|eot_id|>", "needle": ["Edward the Confessor", "Edward the Confessor", "Edward the Confessor"], "score": false}
+{"ctx_len": 127925, "pred": "The concept of complexity classes is frequently used to define the difficulty of solving a computational problem, and is often based on the amount of time or space required to solve", "needle": ["reduction", "a reduction", "reduction"], "score": false}
+{"ctx_len": 129825, "pred": "DTIME(n).<|eot_id|>", "needle": ["DTIME(f(n))", "DTIME(f(n)).", "DTIME(f(n))"], "score": false}
+{"ctx_len": 129835, "pred": "Ralph was not mentioned in the given documents.<|eot_id|>", "needle": ["the Welsh", "the Welsh", "the Welsh"], "score": false}
+{"ctx_len": 130376, "pred": "The name for a problem that meets Ladner's assertion is a problem that is in NP.<|eot_id|>", "needle": ["NP-intermediate problems", "NP-intermediate problems", "NP-intermediate"], "score": false}
+{"ctx_len": 128791, "pred": "The teams in southern California play in the Pac-12 Conference.<|eot_id|>", "needle": ["Pac-12", "the Pac-12", "Pac-12"], "score": true}
+{"ctx_len": 128768, "pred": "If P = NP is unsolved, and reduction is applied to a known NP-complete problem vis a vis \u03a02 to \u03a01, then \u03a01 is not", "needle": ["there is no known polynomial-time solution", "no known polynomial-time solution", "there is no known polynomial-time solution"], "score": false}
+{"ctx_len": 129529, "pred": "Decision tree is an example of a computational complexity measure.<|eot_id|>", "needle": ["Complexity measures", "complexity measures", "complexity"], "score": true}
+{"ctx_len": 129543, "pred": "Rollo.<|eot_id|>", "needle": ["Rollo", "Rollo", "Rollo", "Rollo"], "score": true}
+{"ctx_len": 130905, "pred": "The population of Los Angeles is approximately 3,999,759.<|eot_id|>", "needle": ["3,792,621", "3,792,621", "3,792,621"], "score": false}
+{"ctx_len": 130158, "pred": "Southern California is home to many business districts, including Downtown Los Angeles, Downtown San Diego, Downtown San Bernardino, Downtown Riverside, and Downtown Orange County.<|eot_id|>", "needle": ["business", "major business", "major business"], "score": true}
+{"ctx_len": 129788, "pred": "The main gap to continued urbanization is the lack of affordable housing and the increasing cost of living in cities, which is making it difficult for people to find a", "needle": ["Camp Pendleton", "Camp Pendleton", "Camp Pendleton"], "score": false}
+{"ctx_len": 128254, "pred": "The characteristic that best describes the agricultural regions that could be found is \"diverse\".<|eot_id|>", "needle": ["richest", "rich", "one of the richest"], "score": false}
+{"ctx_len": 126776, "pred": "A Turing machine emulates a simple automaton, which is a finite state machine that can recognize and respond to a finite set of inputs.<|eot_id|>", "needle": ["a computer", "a computer", "a computer"], "score": false}
+{"ctx_len": 129934, "pred": "The difficulty in establishing a framework for complexity classes can be caused by the variable \"n\", which represents the size of the input.<|eot_id|>", "needle": ["complicated definitions", "complicated definitions", "definitions"], "score": false}
+{"ctx_len": 130192, "pred": "NP.<|eot_id|>", "needle": ["#P", "#P", "#P"], "score": false}
+{"ctx_len": 129336, "pred": "The most well-known algorithm associated with the integer factorization problem is the General Number Field Sieve (GNFS).<|eot_id|>", "needle": ["the general number field sieve", "RSA", "general number field sieve"], "score": true}
+{"ctx_len": 130106, "pred": "The solution to this problem is the quicksort algorithm, which is a sorting algorithm that uses a divide-and-conquer approach to sort the list of integers.<|eot_id|>", "needle": ["deterministic sorting algorithm quicksort", "quicksort", "the deterministic sorting algorithm quicksort"], "score": true}
+{"ctx_len": 129102, "pred": "The California Institute of Technology (Caltech) is a private research university.<|eot_id|>", "needle": ["private", "private", "private"], "score": true}
+{"ctx_len": 128142, "pred": "The term given to the corresponding algorithm is O(T(n)).<|eot_id|>", "needle": ["polynomial time algorithm", "polynomial time", "polynomial time algorithm"], "score": false}
+{"ctx_len": 129243, "pred": "A free state.<|eot_id|>", "needle": ["free", "a free state", "free"], "score": true}
+{"ctx_len": 130444, "pred": "The commuter rail system is called Metrolink.<|eot_id|>", "needle": ["Metrolink", "Metrolink", "Metrolink"], "score": true}
+{"ctx_len": 128510, "pred": "No, a problem instance is typically characterized as concrete.<|eot_id|>", "needle": ["concrete", "concrete", "abstract"], "score": true}
+{"ctx_len": 130027, "pred": "The theoretical device attributed to Alan Turing is the Turing machine.<|eot_id|>", "needle": ["Turing machines", "Turing machines", "Turing machines"], "score": false}
+{"ctx_len": 129039, "pred": "Herve served as a Byzantine general in the 11th century.<|eot_id|>", "needle": ["1050s", "in the 1050s", "in the 1050s"], "score": false}
+{"ctx_len": 127663, "pred": "Los Angeles.<|eot_id|>", "needle": ["Los Angeles", "Los Angeles", "Los Angeles"], "score": true}
+{"ctx_len": 127334, "pred": "Sky plc<|eot_id|>", "needle": ["Sky plc", "British Sky Broadcasting Group plc", "British Sky Broadcasting Group plc"], "score": true}
+{"ctx_len": 128779, "pred": "According to the document, southern California experiences around 10,000 earthquakes per year.<|eot_id|>", "needle": ["10,000", "10,000", "10,000"], "score": true}
+{"ctx_len": 127593, "pred": "CBD stands for Cannabidiol.<|eot_id|>", "needle": ["Central business districts", "Central business districts", "Central business districts"], "score": false}
+{"ctx_len": 129202, "pred": "The evidence between and among complexity classes would signify a theoretical watershed for complexity theory.<|eot_id|>", "needle": ["Proving that any of these classes are unequal", "Proving that any of these classes are unequal", "Proving that any of these classes are unequal"], "score": false}
+{"ctx_len": 128297, "pred": "Fresno County.<|eot_id|>", "needle": ["Orange", "Orange County", "Orange County"], "score": false}
+{"ctx_len": 127149, "pred": "The Normans and Byzantines signed the peace treaty in 1204, after the Fourth Crusade.<|eot_id|>", "needle": ["Deabolis", "Deabolis", "Deabolis"], "score": false}
+{"ctx_len": 128244, "pred": "The practical role of defining the complexity of problems in everyday computing is to determine the resources required to solve a problem, such as time and space.<|eot_id|>", "needle": ["determine the practical limits on what computers can and cannot do", "what computers can and cannot do", "determine the practical limits on what computers can and cannot do"], "score": false}
+{"ctx_len": 130668, "pred": "The answer is not provided as it is not a question.<|eot_id|>", "needle": ["beaches", "for its popular beaches", "beaches"], "score": false}
+{"ctx_len": 128549, "pred": "The most critical resource in the analysis of computational problems associated with non-deterministic Turing machines is time.<|eot_id|>", "needle": ["time", "non-deterministic time", "non-deterministic time"], "score": true}
+{"ctx_len": 129543, "pred": "The two teams play for the NCAA Division I.<|eot_id|>", "needle": ["Division I", "Division I", "Division I"], "score": true}
+{"ctx_len": 129465, "pred": "The time needed to obtain the solution to a problem is calculated based on the complexity class of the problem, which is determined by the resources required to solve the problem", "needle": ["as a function of the size of the instance", "as a function of the size of the instance", "a function of the size of the instance"], "score": false}
+{"ctx_len": 127946, "pred": "The size of the input is typically measured in bits.<|eot_id|>", "needle": ["bits", "bits", "bits"], "score": true}
+{"ctx_len": 128218, "pred": "The type of landscapes other than geologic and natural ecosystem landscapes that can be found in southern California include cultural, historical, and anthropological landscapes.<|eot_id|>", "needle": ["topographic", "topographic", "topographic"], "score": false}
+{"ctx_len": 129897, "pred": "Ralph Earl of Warwick.<|eot_id|>", "needle": ["Hereford", "Hereford", "Hereford"], "score": false}
+{"ctx_len": 127724, "pred": "NDS is a subsidiary of Cisco Systems.<|eot_id|>", "needle": ["Cisco Systems", "Cisco Systems", "Cisco Systems company"], "score": true}
+{"ctx_len": 129328, "pred": "The organizations that most commonly divide and promote the state are: 1. The European Union (EU) 2. The United States of America (USA) 3.", "needle": ["regional tourism groups", "regional tourism groups", "AAA Auto Clubs"], "score": false}
+{"ctx_len": 128248, "pred": "The three primary expressions used to represent case complexity are: 1. DTIME(n) - Time complexity 2. SPACE(n) - Space complexity 3.", "needle": ["best, worst and average", "best, worst and average case", "best, worst and average case complexity"], "score": false}
+{"ctx_len": 129514, "pred": "The answer is not provided in the given documents.<|eot_id|>", "needle": ["binary alphabet", "binary", "binary"], "score": false}
+{"ctx_len": 128669, "pred": "10<|eot_id|>", "needle": ["ten", "ten", "ten"], "score": false}
+{"ctx_len": 130444, "pred": "England.<|eot_id|>", "needle": ["Ireland", "Ireland", "Ireland"], "score": false}
+{"ctx_len": 129690, "pred": "Computational complexity theory.<|eot_id|>", "needle": ["analysis of algorithms", "analysis of algorithms", "analysis of algorithms"], "score": false}
+{"ctx_len": 130384, "pred": "Warner Center is located in the San Fernando Valley region of Los Angeles, California.<|eot_id|>", "needle": ["San Fernando Valley", "the San Fernando Valley", "San Fernando Valley"], "score": true}
+{"ctx_len": 129629, "pred": "Robert I of Normandy<|eot_id|>", "needle": ["Richard I", "Richard I", "Richard I"], "score": false}
+{"ctx_len": 129201, "pred": "Riverside.<|eot_id|>", "needle": ["Riverside", "Riverside", "Riverside"], "score": true}
+{"ctx_len": 129801, "pred": "1965<|eot_id|>", "needle": ["1965", "1965", "1965"], "score": true}
+{"ctx_len": 130296, "pred": "Computational complexity theory seeks to answer questions about the inherent difficulty of solving computational problems, and to classify problems according to their inherent difficulty.<|eot_id|>", "needle": ["computational problems", "computational problems", "computational problems"], "score": true}
+{"ctx_len": 126335, "pred": "The busiest single runway in the world is the one at Los Angeles International Airport (LAX) in California, USA.<|eot_id|>", "needle": ["San Diego International Airport", "San Diego International Airport", "San Diego International Airport"], "score": false}
+{"ctx_len": 128408, "pred": "The relationship between L and P is still an open problem in complexity theory, and it is not known whether L is strictly contained in P or equal to P.", "needle": ["if they are distinct or equal classes", "if they are distinct or equal classes", "if they are distinct or equal classes"], "score": false}
+{"ctx_len": 129140, "pred": "Sky UK Limited.<|eot_id|>", "needle": ["Sky UK Limited", "Sky UK Limited", "Sky UK Limited"], "score": true}
+{"ctx_len": 130445, "pred": "None.<|eot_id|>", "needle": ["Duncan", "Duncan", "Duncan"], "score": false}
+{"ctx_len": 129580, "pred": "Complexity classes are generally classified into three main categories: P, NP, and co-NP.<|eot_id|>", "needle": ["framework", "framework", "framework"], "score": false}
+avg_score:0.4
