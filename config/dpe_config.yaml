@@ -1,0 +1,25 @@
+"Meta-Llama-3-8B-Instruct":
+  local_window_size: 1024
+  scale_factors: [2, 8, 2, 8, 32, 32, 32, 4]
+  dimension_groups_range: [0, 8, 16, 24, 32, 40, 48, 56, 64]
+  selected_dim_path : "dim_select_result/llama3-8b-Instruct/qk_2_norm_selected_dim.pt"
+
+"Mistral-7B-Instruct-v0.2":
+  local_window_size: 1024
+  scale_factors: [4, 16, 2, 16, 32, 16, 16, 2]
+  dimension_groups_range: [0, 8, 16, 24, 32, 40, 48, 56, 64]
+  selected_dim_path : "dim_select_result/Mistral-7B-Instruct-v0.2/qk_2_norm_selected_dim.pt"
+
+"Meta-Llama-3.1-8B-Instruct":
+  local_window_size: 1024
+  scale_factors: [2, 32, 32, 2, 2, 2, 2, 1]
+  dimension_groups_range: [0, 8, 16, 24, 32, 40, 48, 56, 64]
+  selected_dim_path : "dimension_selection/result/llama3.1-8b-Instruct/qk_2_norm_selected_dim.pt"
+
+
+"Qwen2.5-7B-Instruct":
+  local_window_size: 1024
+  scale_factors: [2, 16, 8, 8, 32, 8, 2, 4]
+  dimension_groups_range: [0, 8, 16, 24, 32, 40, 48, 56, 64]
+  selected_dim_path : "dim_select_result/Qwen2.5-7B-Instruct/qk_2_norm_selected_dim.pt"
+
