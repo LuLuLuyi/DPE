@@ -14,7 +14,7 @@ This is the official repository for 📜 [Effective Length Extrapolation via Dim
 <img src="./fig/method_fig.pdf" width="1000" alt="" />
 
 ## TABLE OF CONTENTS
-1. [Introdution](#Introdution)
+1. [Introduction](#introduction)
 2. [Quick Start](#quick-start)
 3. [Apply DPE to New Models](#apply-dpe-to-new-models)
 4. [Experiments](#experiments)
@@ -34,7 +34,7 @@ c. **Scaling the Position Indices**: For each selected dimension, we apply a cus
 
 
 
-## 🚀 Quick Start
+## 🚀Quick Start
 ### 1. Requirements
 ```bash
 pip install transformers==4.47.0
@@ -102,7 +102,7 @@ We use NIAH (4-needle) to detect our pretrained model
 
 After this step, we can get scale_factors for different dimension groups. -->
 
-## 🪄 Apply DPE to New Models
+## 🪄Apply DPE to New Models
 ### 1. Detecting the effective relative distance for different dimensions
 
 We use NIAH (4-needle) to detect the optimal scale factors for our pretrained model.
