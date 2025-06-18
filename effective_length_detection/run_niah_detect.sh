@@ -17,11 +17,20 @@ for detect_num in 1 2 3 4 5 6 7 8;
 do
     # Here, we define the scale of other dimensions as 'factor'. We only vary the scale of 'detect_num' for detection.
     factor=$((TEST_MAX_LENGTH / PRETRAIN_LENGTH * 2))
-    # You can customize the detection dimensions here.
-    variable_values=( $((factor / 16)) $((factor / 4)) $((factor / 2)) $factor $((factor * 2)) $((factor * 4)) $((factor * 16)) )
+    # detecting_factor=(1 2 4 8 16 32 64 128)
+    # Generate integer scale factors from TEST_MAX_LENGTH down to 1024
+    detecting_factor=()
+    length=$TEST_MAX_LENGTH
+    
+    while [ $length -ge 1024 ]; do
+        ratio=$((TEST_MAX_LENGTH / length))
+        detecting_factor+=( "$ratio" )
+        length=$((length / 2))
+    done
+    
     num_parts=8
     GROUP_SIZES=()
-    for val in "${variable_values[@]}"; do
+    for val in "${detecting_factor[@]}"; do
         current_group=""
         separator=""
         for ((i=1; i<=num_parts; i++)); do
