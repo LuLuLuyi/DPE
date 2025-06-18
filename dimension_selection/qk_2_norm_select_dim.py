@@ -6,7 +6,13 @@ data_dir = "./dimension_selection/sampled_qk_results/llama3-8b-Instruct" # Direc
 output_dir = "./dimension_selection/result/llama3-8b-Instruct"
 
 num_samples = 10
-lengths = [2048, 4096, 8192, 16384, 32768, 65536, 131072]
+pretrain_length = 8192 # set the pre-trained length of the model, llama3-8b-Instruct:8192, llama3.1-8b-Instruct:131072
+# Automatically generate lengths from pretrain_length down to 2048
+lengths = [] # llama3-8b-Instruct: lengths = [2048, 4096, 8192],  llama3.1-8b-Instruct: lengths = [2048, 4096, 8192, 16384, 32768, 65536, 131072]
+length = pretrain_length
+while length >= 2048:
+    lengths.append(length)
+    length = length // 2
 layers = [f"layer{i}" for i in range(32)]  # "layer0" to "layer31"
 
 def calculate_2_norm(tensor):
