@@ -1,7 +1,7 @@
 <h1 align="center">
 <!-- <img src="./fig/.png" width="100" alt="" /> -->
 <br>
-DPE: Effective Length Extrapolation via Dimension-Wise Positional Embeddings Manipulation
+[COLM'25] DPE: Effective Length Extrapolation via Dimension-Wise Positional Embeddings Manipulation
 </h1>
 
 <!-- <p align="center">
