@@ -184,7 +184,7 @@ To test the model on RULER, run the following command:
 cd scripts
 bash ruler_dpe.sh
 ```
-This command will generate a prediction file in the `Predictions/task_name/model_name/directory`. You can view your generation results and scores in this file and in your stdout. We release the predictions from Llama3.1-STRING 8B/70B [here](https://github.com/HKUNLP/STRING/tree/main/ruler/Predictions). You can also test string with the offical code from RULER by adding one line: `replace_with_string`.
+This command will generate a prediction file in the `Predictions/task_name/model_name/directory`. 
 
 ## 🔎Citation
 
